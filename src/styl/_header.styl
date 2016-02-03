@@ -1,0 +1,34 @@
+html,
+body
+  height 100%
+
+$bg-header
+  background primary
+  height 93%
+  .content
+    width 90%
+    align(both)
+    text-align center
+
+.header
+  @extends $bg-header
+  h1,h2
+    color secondary
+    text-align center
+  img
+    border-radius 20%
+    display block
+    margin auto
+  .title
+    font-size rem(60px)
+    line-height 1
+    display block
+    +above(cut_size)
+      margin-bottom 0
+      font-size rem(90px)
+  .description
+    font-size rem(20px)
+    display block
+    margin rem(40px) 0
+    +above(cut_size)
+      font-size rem(55px)

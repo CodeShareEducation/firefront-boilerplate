@@ -1,0 +1,19 @@
+$bg-footer
+  background secondary
+  width 100%
+  height 7%
+  position fixed
+  bottom 0
+  text-align center
+  padding-top rem(20px)
+
+.footer
+  @extends $bg-footer
+  span, a
+    color primary
+    text-align center
+    font-size rem(20px)
+    +above(cut_size)
+      font-size rem(30px)
+  a:hover
+    color hover
