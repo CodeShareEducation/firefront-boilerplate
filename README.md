@@ -40,20 +40,9 @@ All the tasks are in the `tasks` directory, here's the list of all of them:
 gulp lint
 ```
 
-- **Browser-Sync:** Watch files and reload browser when you save changes in your editor,
-you can run it by the command:
-```
-gulp browser-sync
-```
-
 - **Stylus:** Create a minified `.css` file from your `.styl` files, you can run it by the command:
 ```
 gulp stylus
-```
-
-- **Jade:** Create minified `.html` files from your `.jade` files, you can run it by the command:
-```
-gulp jade
 ```
 
 - **JS:** Create a concatenated and minified `.js` file from your `.js` files, you can run it
@@ -67,14 +56,20 @@ gulp js
 gulp imagemin
 ```
 
-- **Watch:** Watch changes in files, you can run it by the command:
+- **Jade:** Create minified `.html` files from your `.jade` files, you can run it by the command:
 ```
-gulp watch
+gulp jade
 ```
 
-- **Default:** This command triggers all the above `tasks` at once, you can run it by the command:
+- **Jade Watch:** Watch changes in `.jade` files and reload browser when save changes, you can run it by the command:
 ```
-gulp
+gulp jade-watch
+```
+
+- **Serve:** This command watch changes `.styl`, `.js`, `.jade` and `images` and reload browser when save changes,
+you can run it by the command:
+```
+gulp serve
 ```
 
 ## Sample Page
