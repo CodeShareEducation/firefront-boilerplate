@@ -27,8 +27,13 @@ Wait for the dependencies to install and enjoy a modern front-end workflow!!! xD
 
 ## Working with the boilerplate
 You'll work only in the `src` directory. There you'll create all your `.jade`, `.styl`,
-`.js` files and put your `images`. You can run `gulp` task to create your final app in
-`app` directory and watch for changes when you're developing your app.  
+`.js` files and put your `images`.  
+
+Just run
+```
+gulp serve
+```
+This will create your final app in `app` directory and watch for changes when you're developing your app.  
 
 When you finish your app, just use the files in `app` directory for production!!!
 
