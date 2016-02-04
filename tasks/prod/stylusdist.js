@@ -9,7 +9,7 @@ var gulp        = require('gulp'),
 	  koutoSwiss  = require('kouto-swiss'),
 	  prefixer    = require('autoprefixer-stylus');
 
-gulp.task('stylus', function() {
+gulp.task('stylusdist', ['cleandist'], function() {
   gulp
     .src('./src/styl/main.styl')
     .pipe(plumber())
@@ -17,6 +17,6 @@ gulp.task('stylus', function() {
       use : [koutoSwiss(), prefixer(), jeet(), rupture()],
       compress : true
     }))
-    .pipe(gulp.dest('./app/assets/css/'))
+    .pipe(gulp.dest('./dist/assets/css/'))
     .pipe(browserSync.reload({stream:true}));
 });

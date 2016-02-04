@@ -29,53 +29,22 @@ Wait for the dependencies to install and enjoy a modern front-end workflow!!! xD
 You'll work only in the `src` directory. There you'll create all your `.jade`, `.styl`,
 `.js` files and put your `images`.  
 
-Just run
+While you're developing just run:
 ```
 gulp serve
 ```
-This will create your final app in `app` directory and watch for changes when you're developing your app.  
+This will create `.html`, `.css`, `.js` and copy `images` to the `app` directory and watch for
+changes when you're developing your app.  
 
-When you finish your app, just use the files in `app` directory for production!!!
+When you finish your app, just run:
+```
+gulp build
+```
+This will create minified `.html` and `image` files, a minified `main.css` file and a
+concatenated and minified `main.js` file.
 
-## Gulp Tasks
-All the tasks are in the `tasks` directory, here's the list of all of them:
-
-- **Lint:** Linter for JS files, you can run it by the command:
-```
-gulp lint
-```
-
-- **Stylus:** Create a minified `.css` file from your `.styl` files, you can run it by the command:
-```
-gulp stylus
-```
-
-- **JS:** Create a concatenated and minified `.js` file from your `.js` files, you can run it
-by the command:
-```
-gulp js
-```
-
-- **Imagemin:** Minify all `.jpg`, `.png` and `.gif` images, you can run it by the command:
-```
-gulp imagemin
-```
-
-- **Jade:** Create minified `.html` files from your `.jade` files, you can run it by the command:
-```
-gulp jade
-```
-
-- **Jade Watch:** Watch changes in `.jade` files and reload browser when save changes, you can run it by the command:
-```
-gulp jade-watch
-```
-
-- **Serve:** This command watch changes `.styl`, `.js`, `.jade` and `images` and reload browser when save changes,
-you can run it by the command:
-```
-gulp serve
-```
+## Changelog
+Check the [CHANGELOG](https://github.com/CodeShareEducation/firefront-boilerplate/blob/master/CHANGELOG.md) file!
 
 ## Sample Page
 In the `src` directory there's a sample page using `.jade` and `.styl`! You can use it for a starting
