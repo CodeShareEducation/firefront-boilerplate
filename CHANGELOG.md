@@ -9,3 +9,6 @@
 
 ## 1.1.0 (04/Feb/2016)
 - Changed tasks structure to separate them into development and production tasks.
+
+## 1.1.1 (04/Feb/2016)
+- Fixed `js` development task to just concat `.js` files.

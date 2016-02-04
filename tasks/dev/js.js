@@ -2,12 +2,12 @@
 
 var gulp    = require('gulp'),
     plumber = require('gulp-plumber'),
-    uglify  = require('gulp-uglify');
+    concat  = require('gulp-concat');
 
 gulp.task('js', ['clean'], function() {
   return gulp
     .src('./src/js/**/*.js')
     .pipe(plumber())
-    .pipe(uglify())
+    .pipe(concat('main.js'))
     .pipe(gulp.dest('./app/assets/js/'));
 });

@@ -2,18 +2,18 @@
 > Modern front-end boilerplate using many cool features and technologies to aid in the development.  
 
 ## Stack
-- NodeJS
-- GulpJS
-- Stylus
-- Kouto-Swiss
-- Rupture
-- Jeet
-- Vendor prefixes
-- Jade
+- [NodeJS](https://nodejs.org/en/)
+- [GulpJS](http://gulpjs.com/)
+- [Stylus](http://stylus-lang.com/)
+- [Kouto-Swiss](http://kouto-swiss.io/)
+- [Rupture](http://jenius.github.io/rupture/)
+- [Jeet](http://jeet.gs/)
+- [Vendor prefixes](https://developer.mozilla.org/pt-BR/docs/Glossary/Vendor_Prefix)
+- [Jade](http://jade-lang.com/)
+- [Browser-Sync](https://www.browsersync.io/)
 - CSS, JS, HTML and Image minify
 - CSS and JS concat
 - Linter for JS
-- Browser-Sync
 
 ## How to use
 First, you'll need to install [NodeJS](http://nodejs.org) if you don't have it already,
@@ -33,15 +33,19 @@ While you're developing just run:
 ```
 gulp serve
 ```
-This will create `.html`, `.css`, `.js` and copy `images` to the `app` directory and watch for
+This will create `.html`, `.css`, `.js` files and copy `images` to the `app` directory and watch for
 changes when you're developing your app.  
 
 When you finish your app, just run:
 ```
 gulp build
 ```
-This will create minified `.html` and `image` files, a minified `main.css` file and a
-concatenated and minified `main.js` file.
+or
+```
+gulp
+```
+This will create your final app with minified `.html` and `image` files, a minified `main.css`
+file and a minified `main.js` file in `dist` directory.
 
 ## Changelog
 Check the [CHANGELOG](https://github.com/CodeShareEducation/firefront-boilerplate/blob/master/CHANGELOG.md) file!
