@@ -7,6 +7,7 @@ var gulp  = require('gulp'),
       'stylusdist',
       'jadedist',
       'imagemin',
+      'fontsdist'
     ];
 
 gulp.task('build', tasks);

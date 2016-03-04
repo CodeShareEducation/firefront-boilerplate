@@ -7,7 +7,8 @@ var gulp        = require('gulp'),
       'js',
       'stylus',
       'jade',
-      'imagecopy'
+      'imagecopy',
+      'fonts'
     ];
 
 gulp.task('serve', tasks, function() {

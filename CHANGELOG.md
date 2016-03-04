@@ -12,3 +12,6 @@
 
 ## 1.1.1 (04/Feb/2016)
 - Fixed `js` development task to just concat `.js` files.
+
+## 1.2.0 (03/Mar/2016)
+- Added support to `fonts` files.

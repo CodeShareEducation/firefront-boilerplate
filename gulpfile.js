@@ -9,6 +9,7 @@ require('./tasks/dev/js.js');
 require('./tasks/dev/jade.js');
 require('./tasks/dev/jade-watch.js');
 require('./tasks/dev/imagecopy.js');
+require('./tasks/dev/fonts.js');
 require('./tasks/dev/serve.js');
 
 /****************
@@ -19,6 +20,7 @@ require('./tasks/prod/stylusdist.js');
 require('./tasks/prod/jsdist.js');
 require('./tasks/prod/jadedist.js');
 require('./tasks/prod/imagemin.js');
+require('./tasks/prod/fontsdist.js');
 require('./tasks/prod/build.js');
 
 /******************

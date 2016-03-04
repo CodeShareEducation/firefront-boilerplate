@@ -1,6 +1,7 @@
 html,
 body
   height 100%
+  font-family Prototype
 
 $bg-header
   background primary
@@ -19,16 +20,18 @@ $bg-header
     border-radius 20%
     display block
     margin auto
+    height rem(250px)
+    width rem(250px)
   .title
     font-size rem(60px)
     line-height 1
     display block
     +above(cut_size)
       margin-bottom 0
-      font-size rem(90px)
+      font-size rem(70px)
   .description
     font-size rem(20px)
     display block
     margin rem(40px) 0
     +above(cut_size)
-      font-size rem(55px)
+      font-size rem(30px)
