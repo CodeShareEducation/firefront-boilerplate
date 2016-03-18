@@ -15,3 +15,6 @@
 
 ## 1.2.0 (03/Mar/2016)
 - Added support to `fonts` files.
+
+## 1.2.1 (18/Mar/2016)
+- Fixed [jade changes issue](https://github.com/CodeShareEducation/firefront-boilerplate/issues/1)
